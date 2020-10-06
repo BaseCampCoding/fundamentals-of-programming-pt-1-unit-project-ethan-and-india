@@ -1,4 +1,2 @@
 students_list = [
-    ["Ethan Bishop"],
-    ["India Ward"]
-]
+    ["ethan bishop", "india ward", "charles mardis", "joseph dandan", "lathe ward", "seth hogue", "jeremiah tatum", "travis alexander", "sean coh", "loveen kaur", "kenia sandoval", "lance easley", "gregory bowles", "dylan mccreary", "aj hardaway", "al dees", "asiah moton", "bryce taylor", "jeremiah bass", "evan sanders", "matthew wilson", "andy duarte"]
