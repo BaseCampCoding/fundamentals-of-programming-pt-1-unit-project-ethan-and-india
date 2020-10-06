@@ -1,1 +1,4 @@
-students_list = []
+students_list = [
+    ["Ethan Bishop"],
+    ["India Ward"]
+]
