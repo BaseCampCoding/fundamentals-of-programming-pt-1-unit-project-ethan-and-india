@@ -10,6 +10,8 @@ while True:
         print("Type clock-in please!")
 print('You have clocked in   :', time.ctime())
 your_data = {"Purchase Amount": 'TotalAmount'}
-print(your_data,  file=open('D:\LOGINTIMES', 'w'))
-    
+with open('LOGINTIMES.txt', 'w') as f:
+    f.write(x ) 
+    f.write(' Clocked In at ') 
+    f.write(time.ctime())
 
