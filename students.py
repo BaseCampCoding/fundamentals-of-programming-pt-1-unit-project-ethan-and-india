@@ -11,11 +11,14 @@ def main():
             print("Type clock-in please!")
     print('You have clocked in   :', time.ctime())
     your_data = {"Purchase Amount": 'TotalAmount'}
-    with open('LOGINTIMES.txt', 'w') as f:
+    with open('LOGINTIMES.txt', 'a') as f:
+        f.write('\n')
         f.write(x ) 
-        f.write(' Clocked In at ') 
+        f.write('\n')
+        f.write('\n Clocked In at ') 
         f.write(time.ctime())
-    restart = input("Type next to allow the next student to clock in.").lower()
+        f.write('\n')
+    restart = input("Type next to allow the next student to clock in: ").lower()
     if restart == "next":
         main()
     else:
