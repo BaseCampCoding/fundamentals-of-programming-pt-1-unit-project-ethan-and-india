@@ -12,7 +12,6 @@ def main():
         else:
             print("Type clock-in please!")
     print('You have clocked in   :',  timestampStr )
-    your_data = {"Purchase Amount": 'TotalAmount'}
     with open('LOGINTIMES.txt', 'a') as f:
         f.write('\n')
         f.write(student_login) 
