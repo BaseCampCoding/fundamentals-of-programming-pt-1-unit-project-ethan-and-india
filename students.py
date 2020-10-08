@@ -12,7 +12,17 @@ def main():
         else:
             print("Type clock-in please!")
     print('You have clocked in   :',  timestampStr )
-    your_data = {"Purchase Amount": 'TotalAmount'}
+ 
+    dateTimeObj = datetime.now()
+    current_time = dateTimeObj.strftime("%H:%M:%S")
+    start = 80000
+    end = 81520
+    current_time = str.replace(current_time, ':', '')
+    current_time = int(current_time)
+    if current_time > start and current_time > end:
+        print("It's past 8:15 YOU ARE LATE!")
+           
+           
     with open('LOGINTIMES.txt', 'a') as f:
         f.write('\n')
         f.write(student_login) 
