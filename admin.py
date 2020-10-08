@@ -13,7 +13,7 @@ while True:
     else:
         print("Invalid Response Try Again.")
 while True:
-    clearing_txt_file = input("Would you like to clear the times to prepare for the next day?\nIf so just type clear or type quit to exit the program.: ").lower()
+    clearing_txt_file = input("Would you like to clear the times to prepare for the next day?\nIf so just type clear or type quit to exit the program\n-without deleting the LOGINTIMES.txt.: ").lower()
     if clearing_txt_file == "clear":
         file = open("LOGINTIMES.txt","r+")
         file.truncate(0)
