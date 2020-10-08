@@ -4,7 +4,7 @@ def main():
     dateTimeObj = datetime.now()
     timestampStr = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)") 
     print("Good Morning, Welcome to Class! Please Sign in!")
-    x = ESSENTIAL_FUNCTIONS.input_name()
+    student_login = ESSENTIAL_FUNCTIONS.input_name()
     while True:
         clock_in = input("Are you ready to clock in. If so type (clock-in): ")
         if clock_in == "clock-in":
@@ -15,7 +15,7 @@ def main():
     your_data = {"Purchase Amount": 'TotalAmount'}
     with open('LOGINTIMES.txt', 'a') as f:
         f.write('\n')
-        f.write(x ) 
+        f.write(student_login) 
         f.write('\n')
         f.write('\n Clocked In at ') 
         f.write( timestampStr)
