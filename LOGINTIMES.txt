@@ -1,8 +1,11 @@
 
-ethan bishop
 
- Clocked In at Wed Oct  7 15:49:11 2020
+
 
 india ward
 
- Clocked In at Wed Oct  7 15:49:19 2020
+ Clocked In at 08-Oct-2020 (10:07:47.749420)
+
+ethan bishop
+
+ Clocked In at 08-Oct-2020 (10:08:12.891859)
