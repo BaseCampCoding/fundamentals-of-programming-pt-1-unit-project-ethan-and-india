@@ -20,7 +20,7 @@ def main():
     current_time = str.replace(current_time, ':', '')
     current_time = int(current_time)
     if current_time > start and current_time > end:
-        print("It's past 8:15 YOU ARE LATE!")
+        print("It's past 8:15 A.M YOU ARE LATE!")
            
            
     with open('LOGINTIMES.txt', 'a') as f:
