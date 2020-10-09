@@ -11,23 +11,38 @@ The main Idea of this entire program was to create a more seamless clocking in p
 ### Example:
 #### Student.py
 Good Morning, Welcome to Class! Please Sign in!
+
 Name (First Last): rtadn bishop
+
 Please Provide A Valid Name!
+
 Name (First Last): Ethan Bishop
+
 Successfully Logged In!
+
 Are you ready to clock in. If so type (clock-in): clock-in
+
 You have clocked in   : 09-Oct-2020 (09:03:26.445138)
+
 It's past 8:15 A.M YOU ARE LATE!
+
 Type next to allow the next student to clock in: next
+
 Good Morning, Welcome to Class! Please Sign in!
 
 #### admin.py
 Good Morning, This program will allow you the instructor
-to see when your students clocked in for the day.       
+
+to see when your students clocked in for the day.    
+
 Instructor Login (First Last): nte clark
+
 Login Failed! Access Denied. Retry Login.
+
 Instructor Login (First Last): Nate Clark
+
 Login Successfull! Access Granted!
+
 Would you like to see the times your students clocked in? If so (Type Y or N): Y
 
 ethan bishop
@@ -43,8 +58,11 @@ matthew wilson
  Clocked In at 09-Oct-2020 (09:05:26.130915)
 
 Would you like to clear the times to prepare for the next day?
+
 If so just type clear or type quit to exit the program
+
 -without deleting the LOGINTIMES.txt.: clear
+
 File Successfully Cleared. Logging Out.
 
 #### Technical Explanation:
