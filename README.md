@@ -10,6 +10,7 @@ The main Idea of this entire program was to create a more seamless clocking in p
 
 ### Example:
 #### Student.py
+```
 Good Morning, Welcome to Class! Please Sign in!
 
 Name (First Last): rtadn bishop
@@ -29,8 +30,9 @@ It's past 8:15 A.M YOU ARE LATE!
 Type next to allow the next student to clock in: next
 
 Good Morning, Welcome to Class! Please Sign in!
-
+```
 #### admin.py
+```
 Good Morning, This program will allow you the instructor
 
 to see when your students clocked in for the day.    
@@ -64,7 +66,7 @@ If so just type clear or type quit to exit the program
 -without deleting the LOGINTIMES.txt.: clear
 
 File Successfully Cleared. Logging Out.
-
+```
 #### Technical Explanation:
 The main branch of this program is on a page titled [students.py](http://students.py). This contains the main loop within our program that allows the students to clock-in if they are registered on the list. This list and a couple of our main functions were imported from a separate file titles ESSENTIAL_FUNCTIONS.py which includes a couple validation loops and both the lists of instructors and students. These lists can be modified to fit any applicable needs. The last two files that are included within this program are the [admin.py](http://admin.py) and LOGINTIME.txt. [Admin.py](http://admin.py) is the admin program which could be moved into a function and imported into one main page but for this we separated them for ease of access. The logintimes file is simply just a txt file that the student clock-in times are printed to and then accessed by admin.py and can also be cleared by typing a simple clear command.
 
